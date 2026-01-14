@@ -190,7 +190,7 @@ const schedule = {
 				end: '13:00',
 				subject: 'пр.Разработка программных модулей',
 				room: '1-303',
-				teacher: 'Докторов',
+				teacher: 'Докторов С.Э.',
 			},
 		],
 		2: [
@@ -226,7 +226,7 @@ const schedule = {
 				end: '09:30',
 				subject: 'пр.ПОПД',
 				room: '1-225',
-				teacher: '-',
+				teacher: 'Сонин С.В.',
 			},
 			{
 				num: 2,
@@ -234,7 +234,7 @@ const schedule = {
 				end: '11:10',
 				subject: 'л.ПОПД',
 				room: '1-303',
-				teacher: '-',
+				teacher: 'Сонин С.В.',
 			},
 		],
 		4: [
@@ -244,14 +244,14 @@ const schedule = {
 				end: '14:40',
 				subject: 'л.РПМ',
 				room: '1-303',
-				teacher: 'Докторов',
+				teacher: 'Докторов С.Э.',
 			},
 			{
 				num: 3,
 				start: '11:30',
 				end: '13:00',
 				subject: 'физра',
-				room: '-',
+				room: 'зал',
 				teacher: '-',
 			},
 			{
@@ -260,7 +260,7 @@ const schedule = {
 				end: '14:40',
 				subject: 'л.РПМ',
 				room: '1-115',
-				teacher: 'Докторов',
+				teacher: 'Докторов С.Э.',
 			},
 		],
 		5: [
@@ -304,7 +304,7 @@ const schedule = {
 				end: '13:00',
 				subject: 'пр.РПМ',
 				room: '1-113',
-				teacher: 'Докторов',
+				teacher: 'Докторов С.Э.',
 			},
 		],
 		7: [],
@@ -325,7 +325,7 @@ const schedule = {
 				end: '11:10',
 				subject: 'пр.Разработка программных модулей',
 				room: '1-113',
-				teacher: 'Докторов',
+				teacher: 'Докторов С Э.',
 			},
 			{
 				num: 3,
@@ -333,7 +333,7 @@ const schedule = {
 				end: '13:00',
 				subject: 'л.Разработка программных модулей',
 				room: '1-303',
-				teacher: 'Докторов',
+				teacher: 'Докторов С.Э.',
 			},
 		],
 		2: [
@@ -369,7 +369,7 @@ const schedule = {
 				end: '09:30',
 				subject: 'пр.ПОПД',
 				room: '1-225',
-				teacher: '-',
+				teacher: 'Сонин С.В.',
 			},
 			{
 				num: 2,
@@ -377,7 +377,7 @@ const schedule = {
 				end: '11:10',
 				subject: 'л.ПОПД',
 				room: '1-303',
-				teacher: '-',
+				teacher: 'Сонин С.В.',
 			},
 		],
 		4: [
@@ -387,14 +387,14 @@ const schedule = {
 				end: '14:40',
 				subject: 'л.РПМ',
 				room: '1-303',
-				teacher: 'Докторов',
+				teacher: 'Докторов С.Э.',
 			},
 			{
 				num: 3,
 				start: '11:30',
 				end: '13:00',
 				subject: 'физра',
-				room: '-',
+				room: 'зал',
 				teacher: '-',
 			},
 			{
@@ -403,7 +403,7 @@ const schedule = {
 				end: '14:40',
 				subject: 'л.РПМ',
 				room: '1-115',
-				teacher: 'Докторов',
+				teacher: 'Докторов С.Э.',
 			},
 		],
 		5: [

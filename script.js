@@ -447,7 +447,7 @@ const schedule = {
 				end: '13:00',
 				subject: 'пр.РПМ',
 				room: '1-113',
-				teacher: 'Кочура А.Н.',
+				teacher: 'Докторов С.Э.',
 			},
 		],
 		7: [],

@@ -244,7 +244,7 @@ const schedule = {
 				end: '14:40',
 				subject: 'л.РПМ',
 				room: '1-303',
-				teacher: 'Кочура А.Н.',
+				teacher: 'Докторов',
 			},
 			{
 				num: 3,
@@ -260,7 +260,7 @@ const schedule = {
 				end: '14:40',
 				subject: 'л.РПМ',
 				room: '1-115',
-				teacher: 'Кочура А.Н.',
+				teacher: 'Докторов',
 			},
 		],
 		5: [
@@ -304,7 +304,7 @@ const schedule = {
 				end: '13:00',
 				subject: 'пр.РПМ',
 				room: '1-113',
-				teacher: 'Кочура А.Н.',
+				teacher: 'Докторов',
 			},
 		],
 		7: [],
@@ -387,7 +387,7 @@ const schedule = {
 				end: '14:40',
 				subject: 'л.РПМ',
 				room: '1-303',
-				teacher: 'Кочура А.Н.',
+				teacher: 'Докторов',
 			},
 			{
 				num: 3,
@@ -403,7 +403,7 @@ const schedule = {
 				end: '14:40',
 				subject: 'л.РПМ',
 				room: '1-115',
-				teacher: 'Кочура А.Н.',
+				teacher: 'Докторов',
 			},
 		],
 		5: [

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+		/>
+		<title>GHHS-LIST | Расписание</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<!-- PWA настройки -->
+		<link rel="manifest" href="data:application/json,{ \"name\": \"GHHS-LIST\",
+		\"short_name\": \"GHHS-LIST\", \"start_url\": \".\", \"display\":
+		\"standalone\", \"background_color\": \"#000000\", \"theme_color\":
+		\"#FFD700\", \"orientation\": \"portrait\" }">
+		<meta name="theme-color" content="#000000" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta
+			name="apple-mobile-web-app-status-bar-style"
+			content="black-translucent"
+		/>
+	</head>
+	<body>
+		<canvas id="canvas"></canvas>
+
+		<div class="container">
+			<div class="app-header">
+				<div class="app-title">GHHS-LIST</div>
+			</div>
+
+			<!-- Дата и время -->
+			<div class="datetime">
+				<span id="current-date" class="date">—</span>
+				<span id="current-time" class="time">--:--</span>
+			</div>
+
+			<!-- Текущая неделя -->
+			<div class="current-week-info">
+				<span id="current-week-text">2 НЕДЕЛЯ</span>
+			</div>
+
+			<!-- Следующая пара -->
+			<div class="next-class-card">
+				<!-- Будет заполнено JavaScript -->
+			</div>
+
+			<!-- Пары на сегодня -->
+			<div id="schedule" class="schedule-container"></div>
+
+			<!-- Кнопка "Full list" -->
+			<button class="full-list-btn">ПОЛНОЕ РАСПИСАНИЕ</button>
+
+			<!-- Выезжающее меню полного расписания -->
+			<div class="full-schedule-panel" id="full-schedule-panel">
+				<div class="full-schedule-week-selector">
+					<button class="full-schedule-week-btn" data-week="odd">
+						1 НЕДЕЛЯ
+					</button>
+					<button class="full-schedule-week-btn active" data-week="even">
+						2 НЕДЕЛЯ
+					</button>
+				</div>
+
+				<div class="full-schedule-days-scroll">
+					<button class="full-schedule-day-btn active" data-day="1">ПН</button>
+					<button class="full-schedule-day-btn" data-day="2">ВТ</button>
+					<button class="full-schedule-day-btn" data-day="3">СР</button>
+					<button class="full-schedule-day-btn" data-day="4">ЧТ</button>
+					<button class="full-schedule-day-btn" data-day="5">ПТ</button>
+					<button class="full-schedule-day-btn" data-day="6">СБ</button>
+				</div>
+
+				<div id="full-schedule-list" class="full-schedule-list"></div>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>

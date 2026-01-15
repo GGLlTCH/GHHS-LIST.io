@@ -240,8 +240,8 @@ const schedule = {
 		4: [
 			{
 				num: 2,
-				start: '13:10',
-				end: '14:40',
+				start: '09:40',
+				end: '11:10',
 				subject: 'л.РПМ',
 				room: '1-303',
 				teacher: 'Докторов С.Э.',
@@ -383,8 +383,8 @@ const schedule = {
 		4: [
 			{
 				num: 2,
-				start: '13:10',
-				end: '14:40',
+				start: '09:40',
+				end: '11:10',
 				subject: 'л.РПМ',
 				room: '1-303',
 				teacher: 'Докторов С.Э.',
